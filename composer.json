@@ -1,0 +1,23 @@
+{
+    "name": "tjgazel/gangoy-container",
+    "description": "PHP-DI Container for Gangoy Framework",
+    "keywords": ["PHP-DI adapter", "Gangoy Container", "Framework", "php"],
+    "homepage": "https://github.com/tjgazel",
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Talles Gazel",
+            "email": "tjgazel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gangoy\\Core\\Container\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php-di/php-di": "^6.0"
+    }
+}
